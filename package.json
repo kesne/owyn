@@ -1,0 +1,22 @@
+{
+  "name": "owyn",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "ts-node-dev --respawn --transpileOnly ./example/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.5",
+    "ts-node-dev": "^1.0.0-pre.30",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/get-port": "^4.0.0",
+    "get-port": "^4.0.0",
+    "redbird": "^0.8.0"
+  }
+}

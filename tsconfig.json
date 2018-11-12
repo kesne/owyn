@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "outDir": "./lib",
+        "lib": [
+            "esnext"
+        ],
+        "downlevelIteration": true
+    },
+    "include": ["./src/**/*.ts", "./types/**/*.d.ts"]
+}
